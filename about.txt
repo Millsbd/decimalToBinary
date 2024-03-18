@@ -1,0 +1,19 @@
+HTML:
+-basic boilerplate with title and link to css stylesheet.
+-h1 with title, and div for logic container
+-input with a label to enter a number, button to submit number and run logic.
+-ouptupt div to run the animation and return the result
+-script tag to link JS logic.
+
+CSS:
+-Need to research why the before:: after:: needs to be here. 
+- root with color variables
+-body stiling with flex as display options
+-button logic to change color and pointer
+
+JS:
+-declare variables and caputure elements from DOM using getElementById. number input, button, result div, and amiation container.
+-array of objects representing the animation logic for the result
+-show animation logic. timeouts to show and then remove the animation.
+-check input to ensure a number was enetered and alert if wrong format was enetered.
+-event listener to run logic when button is clicked, or enter is hit. 
